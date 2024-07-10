@@ -1,13 +1,10 @@
 name: CI Back-end
-
 on:
   push:
     branches:
       - 'main'
     paths:
       - 'sgcmapi/**'
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
